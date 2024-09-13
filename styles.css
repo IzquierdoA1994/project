@@ -1,0 +1,31 @@
+/* styles.css */
+h1 {
+    text-align: center;
+}
+
+/* Basic styles */
+.tab-content {
+    display: none;
+}
+.tab-content:target {
+    display: block;
+}
+.nav-link {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #1dfa00;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+body {
+    background-image: url('imagesProject/programing screen.jpg'); /* Path to your image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure the body takes up full viewport height */
+    color: white; /* Text color for better visibility */
+}
+
+
